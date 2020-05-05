@@ -1,0 +1,17 @@
+--- a/setup.py
++++ b/setup.py
+@@ -63,10 +63,10 @@
+       py_modules=modulelist,
+       scripts=['cif2cell'],
+       requires=['CifFile'],
+-      data_files=[('lib/cif2cell', ['LICENSE','HOWTOCITE']),
+-                  ('lib/cif2cell/sample_cifs', ciffiles),
+-                  ('lib/cif2cell/sample_cifs/periodic_table', periodiccifs),
+-                  ('lib/cif2cell/docs',docfiles)],
++      data_files=[('share/doc/python3-cif2cell', ['HOWTOCITE']),
++                  ('share/cif2cell/sample_cifs', ciffiles),
++                  ('share/cif2cell/sample_cifs/periodic_table', periodiccifs),
++                  ('share/doc/python3-cif2cell', docfiles)],
+       license='GNU General Public License version 3'
+       )
+ 
