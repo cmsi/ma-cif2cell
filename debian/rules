@@ -1,9 +1,9 @@
 #!/usr/bin/make -f
 
-export PYBUILD_NAME=pycifrw
+export PYBUILD_NAME=cif2cell
 
 %:
-	dh $@ --with python3 --buildsystem=pybuild
+	dh $@ --buildsystem=pybuild
 
 #override_dh_auto_test:
 

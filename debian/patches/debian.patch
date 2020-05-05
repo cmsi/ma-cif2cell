@@ -8,10 +8,10 @@
 -                  ('lib/cif2cell/sample_cifs', ciffiles),
 -                  ('lib/cif2cell/sample_cifs/periodic_table', periodiccifs),
 -                  ('lib/cif2cell/docs',docfiles)],
-+      data_files=[('share/doc/python3-cif2cell', ['HOWTOCITE']),
++      data_files=[('share/doc/python-cif2cell', ['HOWTOCITE']),
 +                  ('share/cif2cell/sample_cifs', ciffiles),
 +                  ('share/cif2cell/sample_cifs/periodic_table', periodiccifs),
-+                  ('share/doc/python3-cif2cell', docfiles)],
++                  ('share/doc/python-cif2cell', docfiles)],
        license='GNU General Public License version 3'
        )
  
