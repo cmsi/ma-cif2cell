@@ -8,7 +8,7 @@ Homepage: https://sourceforge.net/projects/cif2cell/
 
 Package: python3-cif2cell
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, ${python3:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${python3:Depends}, python3-pycifrw
 Description: CIF2Cell - Generating cells for electronic structure calculations from CIF files
  CIF2Cell is a tool to generate the geometrical setup for various electronic
  structure codes from a CIF (Crystallographic Information Framework) file.
